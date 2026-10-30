@@ -40,7 +40,7 @@ Requerimientos Funcionales:
 
 - Gestión de Alertas: El sistema debe generar una alerta en el panel del administrador correspondiente al recibir un nuevo formulario.
 
-- Reproducción por Voz: El sistema debe incluir un botón de "Escuchar" en la notificación que dicte el contenido del reporte o que dicte el contenido del reporte de forma automática.
+- Reproducción por Voz: El sistema debe incluir un botón de "Escuchar" en la notificación que dicte el contenido del reporte o de forma automática.
 
 - Historial: El sistema debe listar el registro de auditorías previas para su consulta.
 

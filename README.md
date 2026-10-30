@@ -9,15 +9,15 @@ Desarrollar una aplicación web práctica y funcional para la gestión de audito
 
 Objetivos Específicos:
 
-• Implementar un sistema de autenticación básico con dos roles: Auditor y Administrador.
+- Implementar un sistema de autenticación básico con dos roles: Auditor y Administrador.
 
-• Diseñar un formulario estándar para el registro y envío de datos de auditoría.
+- Diseñar un formulario estándar para el registro y envío de datos de auditoría.
 
-• Desarrollar un panel de control para el administrador donde se reciban las notificaciones.
+- Desarrollar un panel de control para el administrador donde se reciban las notificaciones.
 
-• Integrar síntesis de voz en el navegador para dictar el contenido de las alertas recibidas.
+- Integrar síntesis de voz en el navegador para dictar el contenido de las alertas recibidas.
 
-• Crear una vista de historial para consultar auditorías pasadas
+- Crear una vista de historial para consultar auditorías pasadas
 
 Alcance y Limitaciones
 Alcance:
@@ -34,37 +34,37 @@ Limitaciones:
 
 Requerimientos Funcionales:
 
-• Autenticación: El sistema debe permitir el registro e inicio de sesión de usuarios y administradores de empresas.
+- Autenticación: El sistema debe permitir el registro e inicio de sesión de usuarios y administradores de empresas.
 
-• Registro de Auditorías: Los usuarios deben poder rellenar y enviar un formulario con los detalles y observaciones de la auditoría.
+- Registro de Auditorías: Los usuarios deben poder rellenar y enviar un formulario con los detalles y observaciones de la auditoría.
 
-• Gestión de Alertas: El sistema debe generar una alerta en el panel del administrador correspondiente al recibir un nuevo formulario.
+- Gestión de Alertas: El sistema debe generar una alerta en el panel del administrador correspondiente al recibir un nuevo formulario.
 
-• Reproducción por Voz: El sistema debe incluir un botón de "Escuchar" en la notificación que dicte el contenido del reporte o que dicte el contenido del reporte de forma automática.
+- Reproducción por Voz: El sistema debe incluir un botón de "Escuchar" en la notificación que dicte el contenido del reporte o que dicte el contenido del reporte de forma automática.
 
-• Historial: El sistema debe listar el registro de auditorías previas para su consulta.
+- Historial: El sistema debe listar el registro de auditorías previas para su consulta.
 
 Requerimientos No Funcionales:
 
-• Usabilidad: Interfaz limpia, intuitiva y adaptable a dispositivos móviles (Responsive Design).
+- Usabilidad: Interfaz limpia, intuitiva y adaptable a dispositivos móviles (Responsive Design).
 
-• Eficiencia: El dictado de voz debe procesarse localmente en el navegador del administrador para no consumir almacenamiento ni ancho de banda del servidor.
+- Eficiencia: El dictado de voz debe procesarse localmente en el navegador del administrador para no consumir almacenamiento ni ancho de banda del servidor.
 
-• Seguridad: Las contraseñas de los usuarios deben almacenarse de forma encriptada en la base de datos.
+- Seguridad: Las contraseñas de los usuarios deben almacenarse de forma encriptada en la base de datos.
 
-• Disponibilidad: La base de datos debe estar alojada en la nube para garantizar el acceso a la información desde cualquier equipo.
+- Disponibilidad: La base de datos debe estar alojada en la nube para garantizar el acceso a la información desde cualquier equipo.
 
 Arquitectura de Desarrollo:
 
-• Patrón: Arquitectura Cliente-Servidor simplificada (Frontend separado del Backend).
+- Patrón: Arquitectura Cliente-Servidor simplificada (Frontend separado del Backend).
 
-• Lógica de Renderizado: El servidor actuará únicamente como una API (JSON) para recibir y enviar los datos, mientras que el cliente se encargará de construir la interfaz.
+- Lógica de Renderizado: El servidor actuará únicamente como una API (JSON) para recibir y enviar los datos, mientras que el cliente se encargará de construir la interfaz.
 
 Stack Tecnológico:
 
-• Frontend (Interfaz y Lógica de Cliente): HTML, CSS y TypeScript.
+- Frontend (Interfaz y Lógica de Cliente): HTML, CSS y TypeScript.
 
-• Motor de Voz: Web Speech API nativa de los navegadores web (sin librerías externas de audio).
+- Motor de Voz: Web Speech API nativa de los navegadores web (sin librerías externas de audio).
 
-• Backend (Servidor): Node.js.
+- Backend (Servidor): Node.js.
 Base de Datos: PostgreSQL alojada en la nube (utilizando servicios como Neon para un despliegue rápido y gratuito).
